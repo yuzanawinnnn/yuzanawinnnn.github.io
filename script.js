@@ -307,7 +307,7 @@
 
   /* ---------- Rotating role (typewriter) ---------- */
   const rotator = document.getElementById("rotator");
-  const roles = ["Software Engineer", "Cybersecurity Specialist", "AI & Full-Stack Developer", "VR / XR Builder"];
+  const roles = ["Cybersecurity Engineer", "AI & Full-Stack Developer"];
   if (rotator && !reduceMotion) {
     let i = 0, chars = roles[0].length, deleting = true;
     const tick = () => {
